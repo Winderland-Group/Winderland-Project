@@ -780,7 +780,7 @@ export default function CourseIndex() {
                   >
                   {showVideo?
                     <div className={`course-img21 video-radius bg-black`}>
-                      <video className={`media-contain`} controls width="300" height="200" id={`courseVideo`} ref={videoRefs} autoPlay>
+                      <video className={`media-contain`} controls width="300" height="200" id={`courseVideo`} ref={videoRefs}>
                         <source src={`http://localhost:3005/uploads/course_and_tarot/${course?.video_path}`} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>

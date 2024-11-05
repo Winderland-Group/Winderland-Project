@@ -426,6 +426,7 @@
   }
   & .course-search-box-width{
     width: 30%;
+    max-width: 480px;
   }
   & .teacher-search-box-width{
     width: 50%;
